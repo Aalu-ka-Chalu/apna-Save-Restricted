@@ -60,8 +60,7 @@ async def token_handler(client, message):
     user_id = message.chat.id
     if len(message.command) <= 1:
         image_url = "https://graph.org/file/25f1451010d1298fb7cde-98590ab25b8d6e1d3c.jpg"
-        join_button = InlineKeyboardButton("𝔍𝔬𝔦𝔫 ℭ𝔥𝔞𝔫𝔫𝔢𝔩", url="https://t.me/AJ_TECH_WORLD")
-        official_channel = InlineKeyboardButton("𝕸𝖆𝖎𝖓 𝕮𝖍𝖆𝖓𝖓𝖊𝖑", url="https://t.me/AJPYTHON_OFFICIAL")
+        join_button = InlineKeyboardButton("𝔍𝔬𝔦𝔫 ℭ𝔥𝔞𝔫𝔫𝔢𝔩", url="https://t.me/AJPYTHON_OFFICIAL")
         premium = InlineKeyboardButton("𝔊𝔢𝔱 𝔓𝔯𝔢𝔪𝔦𝔲𝔪", url="https://t.me/AJ_PYTHON_15")   
         keyboard = InlineKeyboardMarkup([
             [join_button],   
